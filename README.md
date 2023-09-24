@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-normal@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-strided-normal/tags). For example,
+
+```javascript
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-normal@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-normal@v0.1.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-normal@esm/index.mjs';
 ```
 
 #### normal( N, mu, sm, sigma, ss, out, so\[, options] )
@@ -199,7 +204,7 @@ The function accepts the same `options` as documented above for `normal()`.
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-normal@v0.1.0-esm/index.mjs';
+import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-normal@esm/index.mjs';
 
 // Specify a PRNG seed:
 var opts = {
