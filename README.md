@@ -244,6 +244,7 @@ logEach( 'x1[%d] = %.2f; x2[%d] = %.2f', idx, x1, idx, x2 );
 
 ## See Also
 
+-   <span class="package-name">[`@stdlib/random-normal`][@stdlib/random/normal]</span><span class="delimiter">: </span><span class="description">generate pseudorandom numbers drawn from a normal distribution.</span>
 -   <span class="package-name">[`@stdlib/random-base/normal`][@stdlib/random/base/normal]</span><span class="delimiter">: </span><span class="description">normally distributed pseudorandom numbers.</span>
 -   <span class="package-name">[`@stdlib/random-array/normal`][@stdlib/random/array/normal]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a normal distribution.</span>
 
@@ -330,6 +331,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
 <!-- <related-links> -->
+
+[@stdlib/random/normal]: https://github.com/stdlib-js/random-normal
 
 [@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal
 
